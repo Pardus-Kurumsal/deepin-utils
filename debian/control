@@ -1,0 +1,17 @@
+Source: deepin-utils
+Section: libs
+Priority: extra
+Maintainer: Li Longyu (Ai Kotoba) <leaeasy@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), python-dev( >=2.7 ), python-cairo-dev, libcairo2-dev, libgtk2.0-dev, python-setuptools, python-gtk2-dev, libwebkitgtk-dev 
+Standards-Version: 3.9.2
+Homepage: http://www.linuxdeepin.com/
+
+Package: python-deepin-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python ( >=2.7), libgtk2.0-0, libcairo2, python-gtk2, python-webkit, python-xlib
+Description: Utils of DeepinUI Toolkit modules
+ The DeepinUI makes it easy to build befauful and function powerful GUI 
+ based program.
+ .
+ This packages contain some utils modules splits from lengcy deepin-ui 
+ packages.

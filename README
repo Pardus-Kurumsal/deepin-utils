@@ -1,0 +1,6 @@
+Utils library for all project in Linux Deepin.
+
+Base code move from utils module of deepin-ui.
+
+Depend:
+   python-numpy
